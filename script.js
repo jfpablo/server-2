@@ -6,7 +6,7 @@ function loaded()
 {
   cont.innerHTML = "une erreur s'est produite";
     accueil.innerHTML = "accueil";
-    accueil = "selected";
+    let accueil = "selected";
     if (accueil === "selected")
     {
         accueil.style.background = "blue";
